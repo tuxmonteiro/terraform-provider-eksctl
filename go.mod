@@ -4,7 +4,7 @@ go 1.16
 
 require (
 	github.com/armon/circbuf v0.0.0-20190214190532-5111143e8da2
-	github.com/aws/aws-sdk-go v1.44.67
+	github.com/aws/aws-sdk-go v1.44.68
 	github.com/google/go-cmp v0.5.8
 	github.com/hashicorp/terraform-plugin-sdk v1.0.0
 	github.com/k-kinzal/progressived v0.0.0-20200911065552-afe494a1cc18
