@@ -1,7 +1,7 @@
 package cluster
 
 import (
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk"
 	"golang.org/x/xerrors"
 	"io/ioutil"
 	"log"

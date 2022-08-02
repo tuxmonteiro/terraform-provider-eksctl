@@ -2,9 +2,9 @@ package cluster
 
 import (
 	"fmt"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk/api"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk/tfsdk"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk/api"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk/tfsdk"
 	"os/exec"
 )
 

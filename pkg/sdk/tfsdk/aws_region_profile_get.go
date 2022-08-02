@@ -1,6 +1,6 @@
 package tfsdk
 
-import "github.com/mumoshu/terraform-provider-eksctl/pkg/sdk/api"
+import "github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk/api"
 
 func GetAWSRegionAndProfile(d api.Getter, opts ...SchemaOption) (string, string) {
 	schema := CreateSchema(opts...)

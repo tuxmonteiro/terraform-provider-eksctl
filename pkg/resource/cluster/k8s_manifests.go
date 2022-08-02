@@ -3,7 +3,7 @@ package cluster
 import (
 	"bytes"
 	"fmt"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk"
 	"io/ioutil"
 	"os"
 	"os/exec"

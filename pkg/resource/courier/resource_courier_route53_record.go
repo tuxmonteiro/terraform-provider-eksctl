@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/courier"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk/tfsdk"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/courier"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk/tfsdk"
 	"github.com/rs/xid"
 )
 

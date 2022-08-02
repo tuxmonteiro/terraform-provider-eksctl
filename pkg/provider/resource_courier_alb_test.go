@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
 	"github.com/aws/aws-sdk-go/service/elbv2"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/courier/metrics"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/courier/metrics"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"net/http"

@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk/api"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk/api"
 	"log"
 	"time"
 
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/courier"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/courier"
 	"github.com/rs/xid"
 	"gopkg.in/yaml.v3"
 )

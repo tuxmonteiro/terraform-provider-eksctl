@@ -2,8 +2,8 @@ package tfsdk
 
 import (
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk/api"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk/api"
 )
 
 func AWSSessionFromResourceData(d api.Getter, opts ...SchemaOption) *session.Session {

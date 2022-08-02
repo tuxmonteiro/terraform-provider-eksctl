@@ -11,7 +11,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/route53"
 	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/courier/metrics"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/courier/metrics"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"net/http"

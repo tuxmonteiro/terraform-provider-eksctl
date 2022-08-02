@@ -1,7 +1,7 @@
 package courier
 
 import (
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk/api"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk/api"
 )
 
 type MetricSchema struct {

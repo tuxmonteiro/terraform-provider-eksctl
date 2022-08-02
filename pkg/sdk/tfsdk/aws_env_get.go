@@ -1,8 +1,8 @@
 package tfsdk
 
 import (
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk/api"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk/api"
 )
 
 func ConfigFromResourceData(d api.Getter, opts ...SchemaOption) *sdk.Config {

@@ -3,11 +3,11 @@ package provider
 import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/resource/cluster"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/resource/courier"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/resource/iamserviceaccount"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/resource/nodegroup"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk/tfsdk"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/resource/cluster"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/resource/courier"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/resource/iamserviceaccount"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/resource/nodegroup"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk/tfsdk"
 )
 
 // Provider returns a terraform.ResourceProvider.

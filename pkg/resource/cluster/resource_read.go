@@ -2,8 +2,8 @@ package cluster
 
 import (
 	"fmt"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk/api"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk/tfsdk"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk/api"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk/tfsdk"
 )
 
 func ReadCluster(d api.Getter) (*Cluster, error) {

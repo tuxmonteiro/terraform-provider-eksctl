@@ -1,7 +1,7 @@
 package iamserviceaccount
 
 import (
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk"
 )
 
 func mustContext(a *IAMServiceAccount) *sdk.Context {

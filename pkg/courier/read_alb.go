@@ -2,8 +2,8 @@ package courier
 
 import (
 	"fmt"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk/api"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk/tfsdk"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk/api"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk/tfsdk"
 	"golang.org/x/xerrors"
 	"strconv"
 	"time"

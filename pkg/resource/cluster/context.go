@@ -1,7 +1,7 @@
 package cluster
 
 import (
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/sdk"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/sdk"
 )
 
 func mustNewContext(cluster *Cluster) *sdk.Context {

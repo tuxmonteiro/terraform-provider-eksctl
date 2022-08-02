@@ -6,7 +6,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/elbv2"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/courier"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/courier"
 	"log"
 	"sort"
 	"strconv"

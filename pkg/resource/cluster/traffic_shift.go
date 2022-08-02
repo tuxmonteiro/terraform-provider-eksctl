@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/aws/aws-sdk-go/service/elbv2"
 	"github.com/aws/aws-sdk-go/service/elbv2/elbv2iface"
-	"github.com/mumoshu/terraform-provider-eksctl/pkg/courier"
+	"github.com/tuxmonteiro/terraform-provider-eksctl/pkg/courier"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/xerrors"
 	"log"
