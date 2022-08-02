@@ -10,7 +10,7 @@ require (
 	github.com/k-kinzal/progressived v0.0.0-20200911065552-afe494a1cc18
 	github.com/mitchellh/go-linereader v0.0.0-20190213213312-1b945b3263eb
 	github.com/mumoshu/shoal v0.2.18
-	github.com/rs/xid v1.2.1
+	github.com/rs/xid v1.4.0
 	github.com/stretchr/testify v1.5.1
 	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
